@@ -1,0 +1,51 @@
+@import url("http://fonts.cdnfonts.com/css/callie-chalk-font");
+
+body {
+  background-image: url("images/wood-table.jpg");
+  background-size: 100%;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.376);
+}
+
+a,
+.spin {
+  font-family: "Callie Chalk Font", sans-serif;
+  color: white;
+  position: absolute;
+  left: 90%;
+  text-decoration: none;
+}
+
+.bottle {
+  content: url(images/bottle.png);
+  width: 450px;
+  height: 700px;
+  margin-left: 37.5%;
+  margin-right: 37.5%;
+  margin-top: 6%;
+  position: absolute;
+}
+h1 span {
+  position: absolute;
+  font-family: "Callie Chalk Font", sans-serif;
+  color: white;
+  height: 900px;
+  width: 290px;
+  font-size: x-large;
+  text-shadow: 2px 2px #000000;
+  padding-left: 20px;
+  /* border: solid 1px white; */
+  /* background: center; */
+  text-align: center;
+}
+h1.nameCotainer {
+  position: absolute;
+  margin: 1% 0 0 43%;
+}
+button.spin.btn.btn-link {
+  position: absolute;
+  font-size: xxx-large;
+  text-shadow: 2px 2px 11px #000000;
+  text-decoration-style: none;
+  /* display: contents; */
+  margin: 45% 0px 0px 0;
+}
