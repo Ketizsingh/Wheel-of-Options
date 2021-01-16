@@ -107,11 +107,6 @@ const nameContainer = document.body.querySelector("h1.nameCotainer");
 options.map((option, index) => {
   nameContainer.innerHTML += `<span>${index + 1}</span>`;
 });
-// for (option of options) {
-//   // console.log(option);
-//   //   nameContainer.innerHTML += `<span>${initials(option)}</span>`;
-
-// }
 
 let spin = function () {
   $("#taskAssign").modal("hide");
@@ -150,7 +145,6 @@ let spin = function () {
   }, 1000);
 
   setTimeout(() => {
-    // alert(`🥳 ${options[winnerValue - 1]}`);
     document.body.querySelector(".taskText").innerHTML =
       options[winnerValue - 1];
     $("#taskAssign").modal("show");
